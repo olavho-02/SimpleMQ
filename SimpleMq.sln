@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA98A89B-CF53-49AB-8F5E-7E5EA4478AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMq.Common", "src\SimpleMq.Common\SimpleMq.Common.csproj", "{6E54DD81-61E8-4735-8590-A9B1A90C13C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMq.SqlServer", "src\SimpleMq.SqlServer\SimpleMq.SqlServer.csproj", "{5BE04042-0F1D-4AED-8323-48D1A67BF2C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E6078EC5-3877-4449-8EF6-87D21A66F49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMq.Common.Test", "test\SimpleMq.Common.Test\SimpleMq.Common.Test.csproj", "{857A2D71-00A8-43B3-9CEC-E8EAE3A4D304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMq.SqlServer.Test", "test\SimpleMq.SqlServer.Test\SimpleMq.SqlServer.Test.csproj", "{1FCDEEA9-FF18-4468-8D48-296B33854D82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E54DD81-61E8-4735-8590-A9B1A90C13C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E54DD81-61E8-4735-8590-A9B1A90C13C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E54DD81-61E8-4735-8590-A9B1A90C13C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E54DD81-61E8-4735-8590-A9B1A90C13C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE04042-0F1D-4AED-8323-48D1A67BF2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE04042-0F1D-4AED-8323-48D1A67BF2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE04042-0F1D-4AED-8323-48D1A67BF2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE04042-0F1D-4AED-8323-48D1A67BF2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857A2D71-00A8-43B3-9CEC-E8EAE3A4D304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857A2D71-00A8-43B3-9CEC-E8EAE3A4D304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857A2D71-00A8-43B3-9CEC-E8EAE3A4D304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857A2D71-00A8-43B3-9CEC-E8EAE3A4D304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCDEEA9-FF18-4468-8D48-296B33854D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCDEEA9-FF18-4468-8D48-296B33854D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCDEEA9-FF18-4468-8D48-296B33854D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCDEEA9-FF18-4468-8D48-296B33854D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E54DD81-61E8-4735-8590-A9B1A90C13C3} = {BA98A89B-CF53-49AB-8F5E-7E5EA4478AF1}
+		{5BE04042-0F1D-4AED-8323-48D1A67BF2C0} = {BA98A89B-CF53-49AB-8F5E-7E5EA4478AF1}
+		{857A2D71-00A8-43B3-9CEC-E8EAE3A4D304} = {E6078EC5-3877-4449-8EF6-87D21A66F49A}
+		{1FCDEEA9-FF18-4468-8D48-296B33854D82} = {E6078EC5-3877-4449-8EF6-87D21A66F49A}
+	EndGlobalSection
+EndGlobal
